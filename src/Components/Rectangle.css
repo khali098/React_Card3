@@ -1,0 +1,42 @@
+.Rectangle{
+ display: flex;
+ flex-direction: column;
+ gap: 1.5rem;
+ 
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    height: 3rem;
+    width: 17rem;
+    background-color: rgb(233, 106, 106);
+    border-radius: 0.7rem;
+}
+
+
+
+.Proprety{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+    font-weight: 600;
+}
+
+
+img{
+    width: 1rem;
+    height: 1rem;
+    color: aliceblue;
+}
+
+.Note{
+    display: flex;
+}
+
+.Note .Evaluation{
+    font-weight: 700;
+}
